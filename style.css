@@ -136,8 +136,59 @@ opacity: 1;
 
 @media (max-width:700px){
 .hero{
+min-height: 280vh;
+width: 100%;
+color: #fff;
+position: relative;
+width: 500px;
+height: 100%;
+}
 
-width: 660px;
+.text-container{
+max-width: 600px;
+margin-top: 20%;
+margin-left: 25%;
+}
+.text-container h1 {
+font-size: 80px;
+font-weight: 400;
+}
+.text-container a{
+text-decoration: none;
+background: #00986f;
+padding: 14px 40px;
+display: inline-block;
+color: #fff;
+font-size: 18px;
+margin-top: 30px;
+border-radius: 30px;
+}
+
+
+
+
+
+
+
+.lamp-container{
+position: absolute;
+top: 750px;
+left: 43%;
+width: 100px;
+}
+
+.lamp{
+width: 100%;
+}
+.light{
+position: absolute;
+top: 97%;
+left: 20%;
+transform: translateX(-50%);
+width: 250px;
+margin-left: -10px;
+opacity: 0;
+transition: opacity 0.5s;
 }
 
 }
